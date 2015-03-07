@@ -47,10 +47,9 @@ local rule run-tests ( root : tests * )
 # Please keep these in alphabetic order by test-suite name
 run-tests libs :
     tml/test                    # test-suite tml
+    tml/example                 # test-suite tml
     variant/test                # test-suite variant
-    tml/example                 # test-suite algorithm
     ;
 
 run-tests tools :
     ;
-
