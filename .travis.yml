@@ -27,7 +27,7 @@ install:
 #  - sudo pip install cpp-coveralls;
 
 before_script:
-  - ./bootstrap.sh
+  - ./bootstrap.sh --with-toolset=$CC
   - $CXX --version;
   - $CXX -dumpversion;
   - which $CXX
