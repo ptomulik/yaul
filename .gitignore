@@ -71,5 +71,6 @@ bin.v2/
 /yaul
 /dist
 /project-config.jam
+/project-config.jam.*
 /stage
 /user-config.jam
