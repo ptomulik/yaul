@@ -1,0 +1,12 @@
+[submodule "libs/tml"]
+	path = libs/tml
+	url = ../yaul-tml
+[submodule "libs/variant"]
+	path = libs/variant
+	url = ../yaul-variant
+[submodule "libs/preprocessor"]
+	path = libs/preprocessor
+	url = ../boost-preprocessor
+[submodule "tools/build"]
+	path = tools/build
+	url = ../boost-build.git
