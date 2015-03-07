@@ -34,7 +34,7 @@ before_script:
   - which $CC
 
 script:
-  - ./b2 toolset=$CC -d+2 -a status
+  - ./b2 toolset=$CC status
     
 # Uncomment the following block to enable code coverage support.
 #after_success:
