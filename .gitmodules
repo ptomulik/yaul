@@ -10,3 +10,6 @@
 [submodule "tools/build"]
 	path = tools/build
 	url = ../boost-build.git
+[submodule "libs/assert"]
+	path = libs/assert
+	url = ../boost-assert.git
